@@ -186,7 +186,7 @@ export default function App() {
       {/* LAYOUT */}
       <div style={{ display: "flex", flex: 1, overflow: "hidden", height: "calc(100vh - 68px)" }}>
         {/* SIDEBAR */}
-        <aside style={{
+        <aside className={`sidebar${sidebarOpen ? " sidebar-open" : ""}`} style={{
           width: 250, flexShrink: 0, background: "#0f1e36",
           borderRight: "1px solid rgba(238,244,248,.07)",
           overflowY: "auto", display: "flex", flexDirection: "column",
@@ -217,8 +217,8 @@ export default function App() {
             </div>
             <div style={{ background: "rgba(232,200,74,.07)", border: "1px solid rgba(232,200,74,.2)", borderRadius: 6, padding: "10px 11px", fontSize: ".75rem", color: "rgba(238,244,248,.65)", lineHeight: 1.6 }}>
               Documentación oficial en<br />
-              <a href="https://drive.google.com/drive/folders/1dsVfa12Qm86_22WZEjK4xI_m3n2Q4Bmx" target="_blank" rel="noreferrer" style={{ color: "#e8c84a", textDecoration: "none", fontWeight: 500 }}>
-                Google Drive → Carpeta ARN ↗
+              <a href="https://www.argentina.gob.ar" target="_blank" rel="noreferrer" style={{ color: "#e8c84a", textDecoration: "none", fontWeight: 500 }}>
+                argentina.gob.ar ↗
               </a>
               <br /><br />
               El asistente responde sobre el marco regulatorio de la ARN, legislación nuclear y normas técnicas vigentes en Argentina.
@@ -347,6 +347,22 @@ export default function App() {
         p { margin-bottom: .55rem; }
         p:last-child { margin-bottom: 0; }
         strong { color: #eef4f8; font-weight: 500; }
+
+        /* ── MOBILE ── */
+        @media (max-width: 640px) {
+          .mob-menu { display: flex !important; }
+          .sidebar {
+            position: fixed !important;
+            top: 68px; left: 0; bottom: 0;
+            z-index: 100;
+            transform: translateX(-100%);
+            transition: transform .25s ease;
+            width: 80vw !important;
+            max-width: 300px;
+            box-shadow: 4px 0 24px rgba(0,0,0,.5);
+          }
+          .sidebar-open { transform: translateX(0) !important; }
+        }
       `}</style>
     </div>
   );
