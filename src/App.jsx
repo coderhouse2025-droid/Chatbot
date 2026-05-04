@@ -6,7 +6,7 @@ Tus áreas de conocimiento incluyen:
 - Ley 24804 "Ley Nacional de la Actividad Nuclear" y sus decretos reglamentarios
 - La Autoridad Regulatoria Nuclear (ARN): funciones, estructura orgánica, competencias regulatorias
 - Normas ARN (serie de regulaciones técnicas emitidas por la ARN en distintas áreas)
-- Protección radiológica: límites de dosis para trabajadores y público, zonas de exclusión
+- Seguridad radiológica: límites de dosis para trabajadores y público, zonas de exclusión
 - Licencias y habilitaciones para instalaciones nucleares, radiactivas y para personal
 - Gestión, tratamiento y disposición de residuos radiactivos
 - Instalaciones nucleares: reactores Atucha I, Atucha II, Embalse, reactores de investigación
