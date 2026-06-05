@@ -1,4 +1,4 @@
-# ⚛️ NormaAR — Asistente IA sobre Normativa Nuclear Argentina
+# ⚛️ normaAR — Asistente IA sobre Normativa Nuclear Argentina
 
 <img width="2752" height="1536" alt="Banner - Chatbot" src="https://github.com/user-attachments/assets/9afd8b8b-7842-42c5-a7f4-99b1744d33c4" />
 
