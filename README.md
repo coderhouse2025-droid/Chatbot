@@ -1,10 +1,12 @@
-# ⚛️ Chatbot — Normativa Nuclear Argentina
+# ⚛️ NormaAR — Asistente IA sobre Normativa Nuclear Argentina
+
+<img width="2752" height="1536" alt="Banner - Chatbot" src="https://github.com/user-attachments/assets/9afd8b8b-7842-42c5-a7f4-99b1744d33c4" />
 
 [![Demo en vivo](https://img.shields.io/badge/Demo-Live-brightgreen?style=for-the-badge)](https://chatbot-kappa-wheat-30.vercel.app)
 [![RAG](https://img.shields.io/badge/Arquitectura-RAG-blueviolet?style=for-the-badge)](#arquitectura-rag)
 [![LLaMA 3.3 70B](https://img.shields.io/badge/LLM-LLaMA_3.3_70B-orange?style=for-the-badge)](#3-llama-33-70b-vía-groq--no-gpt-4-no-claude)
 
-> Asistente conversacional especializado en el marco regulatorio nuclear argentino, impulsado por inteligencia artificial con acceso a documentación oficial indexada.
+>> Consultá legislación, normas ARN, protección radiológica y tratados internacionales en lenguaje natural.
 
 🔗 **Demo:** https://chatbot-kappa-wheat-30.vercel.app
 
